@@ -71,3 +71,4 @@
 | 46   | [Permutations](https://leetcode.com/problems/permutations/)                                                                                       | [46.js](./46.js)     | Medium     |
 | 395  | [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)    | [395.js](./395.js)   | Medium     |
 | 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                   | [3.js](./3.js)       | Medium     |
+| 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)                                                         | [14.js](./14.js)     | Easy       |
