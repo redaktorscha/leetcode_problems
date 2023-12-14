@@ -6,7 +6,7 @@
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ---------- |
 | 104  | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                                                       | [104.js](./104.js)   | Easy       |
 | 226  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                                                                           | [226.js](./226.js)   | Easy       |
-| 153  | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)                           | [153.js](./153.js)   | Medium     |
+| 153  | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                       | [153.js](./153.js)   | Medium     |
 | 875  | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)                                                                         | [875.js](./875.js)   | Medium     |
 | 74   | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                           | [74.js](./74.js)     | Medium     |
 | 704  | [Binary Search](https://leetcode.com/problems/binary-search/)                                                                                     | [704.js](./704.js)   | Easy       |
@@ -71,4 +71,8 @@
 | 46   | [Permutations](https://leetcode.com/problems/permutations/)                                                                                       | [46.js](./46.js)     | Medium     |
 | 395  | [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)    | [395.js](./395.js)   | Medium     |
 | 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                   | [3.js](./3.js)       | Medium     |
-| 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)                                                         | [14.js](./14.js)     | Easy       |
+| 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                                                     | [14.js](./14.js)     | Easy       |
+| 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)                                                                 | [1480.js](./1480.js) | Easy       |
+| 648  | [Replace Words](https://leetcode.com/problems/replace-words/)                                                                                     | [648.js](./648.js)   | Medium     |
+| 71   | [Simplify Path](https://leetcode.com/problems/simplify-path/)                                                                                     | [71.js](./71.js)     | Medium     |
+| 11   | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)                                                             | [11.js](./11.js)     | Medium     |
