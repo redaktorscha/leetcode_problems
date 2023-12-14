@@ -48,3 +48,4 @@
 | 438  | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)                                                     | [438.js](./438.js)   | Medium     |
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)                                                                   | [1446.js](./1446.js) | Easy       |
 | 98   | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)                                                         | [98.js](./98.js)     | Medium     |
+| 665  | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)                                                                       | [665.js](./665.js)   | Medium     |
