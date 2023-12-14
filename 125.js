@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {boolean}
  */
-var isPalindrome = function (s) {
+const isPalindrome = (s) => {
   const regex = /[A-Za-z]|\d/;
   const isAlphaNumeric = (char) => regex.test(char);
 

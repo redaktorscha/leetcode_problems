@@ -3,7 +3,7 @@
  * @param {number} k
  * @return {number[]}
  */
-var topKFrequent = function (nums, k) {
+const topKFrequent = (nums, k) => {
   const frequencies = [];
 
   const map = nums.reduce((acc, cur) => {

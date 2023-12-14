@@ -2,7 +2,7 @@
  * @param {number[][]} grid
  * @return {number}
  */
-var minPathSum = function (grid) {
+const minPathSum = (grid) => {
   const matrix = new Array(grid.length);
 
   for (let i = 0; i < matrix.length; i += 1) {

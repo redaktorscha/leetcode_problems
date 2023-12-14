@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number}
  */
-var findTargetSumWays = function (nums, target) {
+const findTargetSumWays = (nums, target) => {
   const dp = {};
 
   const iter = (index, total) => {

@@ -12,7 +12,7 @@
  * @param {TreeNode} root
  * @return {string}
  */
-var serialize = function (root) {
+const serialize = (root) => {
   const iter = (node) => {
     if (!node) {
       return 'null';
@@ -29,7 +29,7 @@ var serialize = function (root) {
  * @param {string} data
  * @return {TreeNode}
  */
-var deserialize = function (data) {
+const deserialize = (data) => {
   const createTreeNode = (val) => {
     return {
       val: val,

@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {boolean}
  */
-var isValid = function (str) {
+const isValid = (str) => {
   const pairs = {
     '(': ')',
     '[': ']',

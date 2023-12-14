@@ -10,7 +10,7 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-var isValidBST = function (root) {
+const isValidBST = (root) => {
   const dfs = (node, left, right) => {
     if (!node) {
       return true;

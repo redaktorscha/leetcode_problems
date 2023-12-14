@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {number}
  */
-var maxPower = function (s) {
+const maxPower = (s) => {
   let prevIdx = 0;
   let prevChar = s[0];
   let max = 0;

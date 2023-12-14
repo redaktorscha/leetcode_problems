@@ -2,7 +2,7 @@
  * @param {character[]} chars
  * @return {number}
  */
-var compress = function (chars) {
+const compress = (chars) => {
   let s = '';
   let curChar = chars[0];
   let q = 1;

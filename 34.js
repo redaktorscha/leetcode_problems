@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
-var searchRange = function (nums, target) {
+const searchRange = (nums, target) => {
   const leftBinSearch = (arr, n) => {
     let left = 0;
     let right = arr.length - 1;

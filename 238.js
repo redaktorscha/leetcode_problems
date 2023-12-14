@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-var productExceptSelf = function (nums) {
+const productExceptSelf = (nums) => {
   let zeroCount = 0;
   const maxProduct = nums.reduce((acc, cur) => {
     if (cur === 0) {

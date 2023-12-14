@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {number}
  */
-var firstUniqChar = function (s) {
+const firstUniqChar = (s) => {
   const charMap = {};
 
   let minIdx = -1;

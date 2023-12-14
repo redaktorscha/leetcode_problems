@@ -3,7 +3,7 @@
  * @param {string} p
  * @return {number[]}
  */
-var findAnagrams = function (s, p) {
+const findAnagrams = (s, p) => {
   const result = [];
   if (p.length > s.length) {
     return result;

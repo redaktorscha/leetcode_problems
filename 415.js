@@ -3,7 +3,7 @@
  * @param {string} num2
  * @return {string}
  */
-var addStrings = function (num1, num2) {
+const addStrings = (num1, num2) => {
   const resSum = [];
   let carry = 0;
 

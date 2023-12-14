@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {string}
  */
-var longestPalindrome = function (s) {
+const longestPalindrome = (s) => {
   const modifyStr = (str) => `#${str.split('').join('#')}#`;
 
   const modifiedStr = modifyStr(s);

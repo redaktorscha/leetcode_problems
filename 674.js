@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var findLengthOfLCIS = function (nums) {
+const findLengthOfLCIS = (nums) => {
   let curLen = 1;
   let maxLen = 1;
 

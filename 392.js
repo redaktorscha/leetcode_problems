@@ -3,7 +3,7 @@
  * @param {string} t
  * @return {boolean}
  */
-var isSubsequence = function (s, t) {
+const isSubsequence = (s, t) => {
   let sequenceCounter = 0;
 
   let i = 0;

@@ -3,7 +3,7 @@
  * @param {number} k
  * @return {boolean}
  */
-var checkSubarraySum = function (nums, k) {
+const checkSubarraySum = (nums, k) => {
   if (nums.length < 2) {
     return false;
   }
