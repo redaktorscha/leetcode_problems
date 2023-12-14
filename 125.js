@@ -3,8 +3,10 @@
  * @return {boolean}
  */
 const isPalindrome = (s) => {
-  const regex = /[A-Za-z]|\d/;
-  const isAlphaNumeric = (char) => regex.test(char);
+  const regex = /[a-zA-Z]/;
+  const isEmpty = (char) => char === ' ';
+  const isAlphaNumeric = (char) =>
+    !isEmpty(char) && (regex.test(char) || !isNaN(Number(char)));
 
   let left = 0;
   let right = s.length - 1;
