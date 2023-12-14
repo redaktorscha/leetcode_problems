@@ -49,3 +49,25 @@
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)                                                                   | [1446.js](./1446.js) | Easy       |
 | 98   | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)                                                         | [98.js](./98.js)     | Medium     |
 | 665  | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)                                                                       | [665.js](./665.js)   | Medium     |
+| 938  | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)                                                                               | [938.js](./938.js)   | Easy       |
+| 350  | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)                                                     | [350.js](./350.js)   | Easy       |
+| 771  | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)                                                                             | [771.js](./771.js)   | Easy       |
+| 567  | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)                                                                     | [567.js](./567.js)   | Medium     |
+| 103  | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)                               | [103.js](./103.js)   | Medium     |
+| 59   | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)                                                                               | [59.js](./59.js)     | Medium     |
+| 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                                                               | [53.js](./53.js)     | Medium     |
+| 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                                                                         | [206.js](./206.js)   | Easy       |
+| 204  | [Count Primes](https://leetcode.com/problems/count-primes/)                                                                                       | [204.js](./204.js)   | Medium     |
+| 150  | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                                               | [150.js](./150.js)   | Medium     |
+| 49   | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                                                                   | [49.js](./49.js)     | Medium     |
+| 88   | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                                                                           | [88.js](./88.js)     | Easy       |
+| 22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                                                                       | [22.js](./22.js)     | Medium     |
+| 4    | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                                                         | [4.js](./4.js)       | Hard       |
+| 138  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                     | [138.js](./138.js)   | Medium     |
+| 67   | [Add Binary](https://leetcode.com/problems/add-binary/)                                                                                           | [67.js](./67.js)     | Easy       |
+| 2    | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                                                                 | [2.js](./2.js)       | Medium     |
+| 1    | [Two Sum](https://leetcode.com/problems/two-sum/description/)                                                                                     | [1.js](./1.js)       | Easy       |
+| 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                                                                             | [141.js](./141.js)   | Easy       |
+| 46   | [Permutations](https://leetcode.com/problems/permutations/)                                                                                       | [46.js](./46.js)     | Medium     |
+| 395  | [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)    | [395.js](./395.js)   | Medium     |
+| 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                   | [3.js](./3.js)       | Medium     |
