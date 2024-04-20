@@ -79,3 +79,4 @@
 | 9    | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)                                                                             | [9.js](./9.js)       | Easy       |
 | 1328 | [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)                                                                           | [1328.js](./1328.js) | Medium     |
 | 228  | [Summary Ranges](https://leetcode.com/problems/summary-ranges/)                                                                                   | [228.js](./228.js)   | Easy       |
+| 2677 | [Chunk Array](https://leetcode.com/problems/chunk-array/)                                                                                         | [2677.js](./2677.js) | Easy       |
