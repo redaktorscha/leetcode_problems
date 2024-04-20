@@ -78,3 +78,4 @@
 | 11   | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)                                                             | [11.js](./11.js)     | Medium     |
 | 9    | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)                                                                             | [9.js](./9.js)       | Easy       |
 | 1328 | [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)                                                                           | [1328.js](./1328.js) | Medium     |
+| 228  | [Summary Ranges](https://leetcode.com/problems/summary-ranges/)                                                                                   | [228.js](./228.js)   | Easy       |
