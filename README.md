@@ -80,3 +80,5 @@
 | 1328 | [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)                                                                           | [1328.js](./1328.js) | Medium     |
 | 228  | [Summary Ranges](https://leetcode.com/problems/summary-ranges/)                                                                                   | [228.js](./228.js)   | Easy       |
 | 2677 | [Chunk Array](https://leetcode.com/problems/chunk-array/)                                                                                         | [2677.js](./2677.js) | Easy       |
+| 35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                                                   | [35.js](./35.js)     | Easy       |
+| 356  | [Line Reflection](https://leetcode.com/problems/line-reflection/)                                                                                 | [356.js](./356.js)   | Medium     |
