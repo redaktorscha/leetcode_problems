@@ -11,20 +11,19 @@
  * @return {number}
  */
 const maxDepth = (root) => {
-  let n = 0;
-  const dfs = (node, depth) => {
+  let result = 0;
+
+  const dfs = (node, acc) => {
     if (node === null) {
-      n = Math.max(n, depth);
+      result = Math.max(result, acc);
       return;
     }
 
-    const curDepth = depth;
-
-    dfs(node.left, depth + 1);
-    dfs(node.right, curDepth + 1);
+    dfs(node.left, acc + 1);
+    dfs(node.right, acc + 1);
   };
 
-  dfs(root, n);
+  dfs(root, 0);
 
-  return n;
+  return result;
 };
