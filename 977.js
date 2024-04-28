@@ -4,42 +4,22 @@
  */
 const sortedSquares = (nums) => {
   const result = [];
+  const stack = [];
 
-  let positiveIdx = 0;
-
-  while (nums[positiveIdx] < 0) {
-    positiveIdx += 1;
-  }
-
-  let negativeIdx = null;
-
-  if (positiveIdx > 0) {
-    negativeIdx = positiveIdx - 1;
-  }
-
-  if (negativeIdx === null) {
-    return nums.map((el) => el ** 2);
-  }
-
-  while (positiveIdx < nums.length && negativeIdx >= 0) {
-    if (nums[negativeIdx] ** 2 < nums[positiveIdx] ** 2) {
-      result.push(nums[negativeIdx] ** 2);
-      negativeIdx -= 1;
+  for (let i = 0; i < nums.length; i += 1) {
+    if (stack.length === 0 || nums[i] ** 2 <= stack[stack.length - 1]) {
+      stack.push(nums[i] ** 2);
     } else {
-      result.push(nums[positiveIdx] ** 2);
-      positiveIdx += 1;
+      while (stack[stack.length - 1] < nums[i] ** 2) {
+        const next = stack.pop();
+        result.push(next);
+      }
+      result.push(nums[i] ** 2);
     }
   }
 
-  while (positiveIdx < nums.length) {
-    result.push(nums[positiveIdx] ** 2);
-    positiveIdx += 1;
+  while (stack.length) {
+    result.push(stack.pop());
   }
-
-  while (negativeIdx >= 0) {
-    result.push(nums[negativeIdx] ** 2);
-    negativeIdx -= 1;
-  }
-
   return result;
 };
