@@ -4,13 +4,15 @@
  * @return {number}
  */
 const removeElement = (nums, val) => {
-  let k = 0;
+  let left = 0;
+  let right = 0;
 
-  for (let i = 0; i < nums.length; i += 1) {
-    if (nums[i] !== val) {
-      nums[k] = nums[i];
-      k += 1;
+  while (right < nums.length) {
+    if (nums[right] !== val) {
+      nums[left] = nums[right];
+      left += 1;
     }
+    right += 1;
   }
-  return k;
+  return left;
 };
