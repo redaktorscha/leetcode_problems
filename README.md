@@ -83,3 +83,4 @@
 | 35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                                                   | [35.js](./35.js)     | Easy       |
 | 356  | [Line Reflection](https://leetcode.com/problems/line-reflection/)                                                                                 | [356.js](./356.js)   | Medium     |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)                                                                             | [1470.js](./1470.js) | Easy       |
+| 72   | [Edit Distance](https://leetcode.com/problems/edit-distance/)                                                                                     | [72.js](./72.js)     | Medium     |
