@@ -3,19 +3,17 @@
  * @return {number}
  */
 const findMaxConsecutiveOnes = (nums) => {
-  let curSum = 0;
-  let maxSum = 0;
+  let count = 0;
+  let maxCount = 0;
 
   for (const n of nums) {
     if (n === 1) {
-      curSum += 1;
+      count += 1;
     } else {
-      maxSum = Math.max(maxSum, curSum);
-      curSum = 0;
+      count = 0;
     }
+
+    maxCount = Math.max(maxCount, count);
   }
-
-  maxSum = Math.max(maxSum, curSum);
-
-  return maxSum;
+  return maxCount;
 };
