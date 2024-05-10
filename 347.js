@@ -4,17 +4,14 @@
  * @return {number[]}
  */
 const topKFrequent = (nums, k) => {
+  const map = {};
   const frequencies = [];
-
-  const map = nums.reduce((acc, cur) => {
-    acc[cur] = (acc[cur] || 0) + 1;
-    return acc;
-  }, {});
-
-  for (const [key, value] of Object.entries(map)) {
-    frequencies[value] = frequencies[value] || [];
-    frequencies[value].push(key);
+  for (const num of nums) {
+    map[num] = (map[num] || 0) + 1;
   }
-
-  return frequencies.flat().reverse().slice(0, k).filter(Boolean).map(Number);
+  for (const k in map) {
+    frequencies[map[k]] = frequencies[map[k]] || [];
+    frequencies[map[k]].push(k);
+  }
+  return frequencies.filter(Boolean).flat().slice(-k);
 };
