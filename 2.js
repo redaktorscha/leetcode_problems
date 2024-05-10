@@ -11,67 +11,142 @@
  * @return {ListNode}
  */
 const addTwoNumbers = (l1, l2) => {
-  const getListValues = (root) => {
-    const res = [];
+  let node1 = l1;
+  let node2 = l2;
+  let carry = 0;
 
-    let node = root;
-
-    while (node !== null) {
-      res.push(node.val);
-      node = node.next;
-    }
-
-    return res;
+  const list = {
+      val: null,
+      next: null,
   };
 
-  const values1 = getListValues(l1);
-  const values2 = getListValues(l2);
+  let current = list;
 
-  console.log(values1);
-  console.log(values2);
+  while (node1 || node2 || carry) {
+      let sum = (node1?.val ?? 0) + (node2?.val ?? 0) + carry;
 
-  let i = 0;
-  let j = 0;
+      carry = Math.floor(sum / 10);
+      sum %= 10;
 
-  let sumList = null;
-  let tail = null;
-  let carry = 0;
-  let curSum;
-  while (i < values1.length || j < values2.length) {
-    curSum = (values1[i] ?? 0) + (values2[j] ?? 0);
-    if (carry === 1) {
-      curSum += carry;
-      carry = 0;
-    }
-    if (curSum >= 10) {
-      curSum -= 10;
-      carry = 1;
-    }
+      node1 = node1?.next ?? null;
+      node2 = node2?.next ?? null;
 
-    if (sumList === null) {
-      sumList = {
-        val: curSum,
-        next: null,
+      current.next = {
+          val: sum,
+          next: null,
       };
-      tail = sumList;
-    } else {
-      tail.next = {
-        val: curSum,
-        next: null,
-      };
-      tail = tail.next;
-    }
-
-    i += 1;
-    j += 1;
+      current = current.next;
   }
 
-  if (carry) {
-    tail.next = {
-      val: carry,
-      next: null,
-    };
+  return list.next;
   }
 
-  return sumList;
+  return JSON.stringify(list.next);
 };
+
+// const list2 = {
+//   val: 1,
+//   next: {
+//     val: 0,
+//     next: {
+//       val: 0,
+//       next: {
+//         val: 0,
+//         next: {
+//           val: 0,
+//           next: {
+//             val: 0,
+//             next: {
+//               val: 0,
+//               next: {
+//                 val: 0,
+//                 next: {
+//                   val: 0,
+//                   next: {
+//                     val: 0,
+//                     next: {
+//                       val: 0,
+//                       next: {
+//                         val: 0,
+//                         next: {
+//                           val: 0,
+//                           next: {
+//                             val: 0,
+//                             next: {
+//                               val: 0,
+//                               next: {
+//                                 val: 0,
+//                                 next: {
+//                                   val: 0,
+//                                   next: {
+//                                     val: 0,
+//                                     next: {
+//                                       val: 0,
+//                                       next: {
+//                                         val: 0,
+//                                         next: {
+//                                           val: 0,
+//                                           next: {
+//                                             val: 0,
+//                                             next: {
+//                                               val: 0,
+//                                               next: {
+//                                                 val: 0,
+//                                                 next: {
+//                                                   val: 0,
+//                                                   next: {
+//                                                     val: 0,
+//                                                     next: {
+//                                                       val: 0,
+//                                                       next: {
+//                                                         val: 0,
+//                                                         next: {
+//                                                           val: 0,
+//                                                           next: {
+//                                                             val: 0,
+//                                                             next: {
+//                                                               val: 0,
+//                                                               next: null,
+//                                                             },
+//                                                           },
+//                                                         },
+//                                                       },
+//                                                     },
+//                                                   },
+//                                                 },
+//                                               },
+//                                             },
+//                                           },
+//                                         },
+//                                       },
+//                                     },
+//                                   },
+//                                 },
+//                               },
+//                             },
+//                           },
+//                         },
+//                       },
+//                     },
+//                   },
+//                 },
+//               },
+//             },
+//           },
+//         },
+//       },
+//     },
+//   },
+// };
+
+// const list1 = {
+//   val: 5,
+//   next: {
+//     val: 6,
+//     next: {
+//       val: 4,
+
+//       next: null,
+//     },
+//   },
+// };
