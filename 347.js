@@ -6,12 +6,25 @@
 const topKFrequent = (nums, k) => {
   const map = {};
   const frequencies = [];
+  const result = [];
+
   for (const num of nums) {
     map[num] = (map[num] || 0) + 1;
   }
+
   for (const k in map) {
     frequencies[map[k]] = frequencies[map[k]] || [];
     frequencies[map[k]].push(k);
   }
-  return frequencies.filter(Boolean).flat().slice(-k);
+
+  for (let i = frequencies.length - 1; i > 0; i -= 1) {
+    if (frequencies[i]) {
+      result.push(...frequencies[i]);
+    }
+    if (result.length === k) {
+      return result;
+    }
+  }
 };
+
+console.log(topKFrequent([1, 1, 1, 2, 2, 3], 2));
