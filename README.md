@@ -84,3 +84,6 @@
 | 356  | [Line Reflection](https://leetcode.com/problems/line-reflection/)                                                                                 | [356.js](./356.js)   | Medium     |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)                                                                             | [1470.js](./1470.js) | Easy       |
 | 72   | [Edit Distance](https://leetcode.com/problems/edit-distance/)                                                                                     | [72.js](./72.js)     | Medium     |
+| 205  | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)                                                                           | [205.js](./205.js)   | Easy       |
+| 258  | [Add Digits](https://leetcode.com/problems/add-digits/)                                                                                           | [258.js](./258.js)   | Easy       |
+| 658  | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)                                                                 | [658.js](./658.js)   | Medium     |
