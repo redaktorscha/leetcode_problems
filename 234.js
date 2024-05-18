@@ -31,29 +31,90 @@ const isPalindrome = (head) => {
   //   j = j.next;
   // }
   // return true;
-
   //v2
+  // let node = head;
+  // let prev = null;
+  // while (node !== null) {
+  //   node.prev = prev;
+  //   prev = node;
+  //   node = node.next;
+  // }
+  // let i = head;
+  // let j = prev;
+  // while (i !== j) {
+  //   if (i.val !== j.val) {
+  //     return false;
+  //   }
+  //   i = i.next;
+  //   j = j.prev;
+  // }
+  // return true;
+  // v3
+  // const result = [];
+  // let node = head;
+  // while (node !== null) {
+  //   result.push(node.val);
+  //   node = node.next;
+  // }
+  // let left = 0;
+  // let right = result.length - 1;
+  // while (left < right) {
+  //   if (result[left] !== result[right]) {
+  //     return false;
+  //   }
+  //   left += 1;
+  //   right -= 1;
+  // }
+  // return true;
+  // v4
 
-  let node = head;
-  let prev = null;
+  let slow = head;
+  let fast = head;
 
-  while (node !== null) {
-    node.prev = prev;
-    prev = node;
-    node = node.next;
+  while (fast && fast.next) {
+    fast = fast.next.next;
+    slow = slow.next;
+  }
+
+  let last = null;
+
+  while (slow !== null) {
+    let temp = slow.next;
+    slow.next = last;
+    last = slow;
+    slow = temp;
   }
 
   let i = head;
-  let j = prev;
+  let j = last;
 
-  while (i !== j) {
+  while (j) {
     if (i.val !== j.val) {
       return false;
     }
-
     i = i.next;
-    j = j.prev;
+    j = j.next;
   }
 
   return true;
 };
+
+isPalindrome({
+  val: 1,
+  next: {
+    val: 2,
+    next: {
+      val: 3,
+      next: {
+        val: 3,
+        next: {
+          val: 2,
+          next: {
+            val: 1,
+            next: null,
+          },
+        },
+      },
+    },
+  },
+});
