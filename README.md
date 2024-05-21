@@ -87,4 +87,6 @@
 | 205  | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)                                                                           | [205.js](./205.js)   | Easy       |
 | 258  | [Add Digits](https://leetcode.com/problems/add-digits/)                                                                                           | [258.js](./258.js)   | Easy       |
 | 658  | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)                                                                 | [658.js](./658.js)   | Medium     |
-| 234  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)                                                       | [234.js](./234.js)   | Easy       |
+| 234  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                                   | [234.js](./234.js)   | Easy       |
+| 101  | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)                                                                                   | [101.js](./101.js)   | Easy       |
+| 933  | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)                                                                   | [933.js](./933.js)   | Easy       |
