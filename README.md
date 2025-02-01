@@ -90,3 +90,4 @@
 | 234  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                                   | [234.js](./234.js)   | Easy       |
 | 101  | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)                                                                                   | [101.js](./101.js)   | Easy       |
 | 933  | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)                                                                   | [933.js](./933.js)   | Easy       |
+| 3151 | [Special Array I](https://leetcode.com/problems/special-array-i/)                                                                                 | [3151.js](./3151.js) | Easy       |
