@@ -19,12 +19,14 @@ const topKFrequent = (nums, k) => {
 
   for (let i = frequencies.length - 1; i > 0; i -= 1) {
     if (frequencies[i]) {
-      result.push(...frequencies[i]);
-    }
-    if (result.length === k) {
-      return result;
+      for (const n of frequencies[i]) {
+        result.push(n);
+        if (result.length === k) {
+          return result;
+        }
+      }
     }
   }
 };
 
-console.log(topKFrequent([1, 1, 1, 2, 2, 3], 2));
+console.log(topKFrequent([1, 1, 1, 2, 2, 3, 5, 5, 5, 5, 5, 5, 5], 2));

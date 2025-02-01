@@ -32,14 +32,12 @@ const minDistance = (word1, word2) => {
 
   for (let i = 1; i <= word1.length; i += 1) {
     for (let j = 1; j <= word2.length; j += 1) {
-      if (word1[i - 1] === word2[j - 1]) {
-        dp[i][j] = dp[i - 1][j - 1];
-      } else {
-        const add = dp[i - 1][j];
-        const remove = dp[i][j - 1];
-        const replace = dp[i - 1][j - 1];
-        dp[i][j] = 1 + Math.min(add, remove, replace);
-      }
+      const indicator = word1[i - 1] === word2[j - 1] ? 0 : 1;
+
+      const add = dp[i - 1][j] + 1;
+      const remove = dp[i][j - 1] + 1;
+      const replace = dp[i - 1][j - 1] + indicator;
+      dp[i][j] = Math.min(add, remove, replace);
     }
   }
 
