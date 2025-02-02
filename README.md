@@ -91,3 +91,5 @@
 | 101  | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)                                                                                   | [101.js](./101.js)   | Easy       |
 | 933  | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)                                                                   | [933.js](./933.js)   | Easy       |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i/)                                                                                 | [3151.js](./3151.js) | Easy       |
+| 58   | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)                                                                         | [58.js](./58.js)     | Easy       |
+| 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)                                       | [1752.js](./1752.js) | Easy       |
